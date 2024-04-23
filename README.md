@@ -19,7 +19,7 @@ This script allows you to enumerate various AWS IAM (Identity and Access Managem
 ### Example
 
 ```bash
-python aws_resource_enumerator.py --iam --s3 --output output.json
+python AWS_IAMS3.py --iam --s3 --output output.json
 ```
 
 This command will enumerate both IAM and S3 resources and save the output to `output.json` file.
